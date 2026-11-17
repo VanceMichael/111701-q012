@@ -1,0 +1,8 @@
+{
+  "source": "sample-12",
+  "observedAt": "2026-11-17T08:00:00.000Z",
+  "items": [
+    {"id": "12-A", "label": "建筑材料报价样例甲", "state": "active", "revision": 1},
+    {"id": "12-B", "label": "建筑材料报价样例乙", "state": "pending", "revision": 1}
+  ]
+}
