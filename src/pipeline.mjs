@@ -2,9 +2,13 @@ import { normalizePage } from './adapter.mjs';
 import { readSource } from './source.mjs';
 import { RecordStore } from './store.mjs';
 
-export async function collect({ source = readSource, store = new RecordStore() } = {}) {
+export async function collect({
+  source = readSource,
+  store = new RecordStore(),
+  normalize = normalizePage,
+} = {}) {
   const page = await source();
-  const records = normalizePage(page).map((record) => store.save(record));
+  const records = normalize(page).map((record) => store.save(record));
   return { source: page.source, observedAt: page.observedAt ?? null, records, store };
 }
 

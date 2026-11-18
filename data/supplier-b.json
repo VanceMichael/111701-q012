@@ -1,0 +1,40 @@
+{
+  "source": "supplier-b",
+  "observedAt": "2026-11-17T10:00:00.000Z",
+  "items": [
+    {
+      "id": "b1",
+      "material": "五孔插座面板",
+      "requestedSpec": "10A 250V",
+      "quotedSpec": "10A 250V",
+      "unit": "件",
+      "price": 19.5,
+      "validUntil": "2026-12-15",
+      "state": "active",
+      "revision": 1
+    },
+    {
+      "id": "b2",
+      "material": "LED 平板灯",
+      "requestedSpec": "300×300 24W",
+      "quotedSpec": "300×300 24W",
+      "unit": "件",
+      "price": 88,
+      "validUntil": "2026-12-15",
+      "state": "active",
+      "revision": 1
+    },
+    {
+      "id": "b3",
+      "material": "PPR 给水管",
+      "requestedSpec": "DN20×2.8",
+      "quotedSpec": "DN20×2.8",
+      "unit": "件",
+      "baseUnit": "根",
+      "price": 17,
+      "validUntil": "2026-10-01",
+      "state": "active",
+      "revision": 1
+    }
+  ]
+}
